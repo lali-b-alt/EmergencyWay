@@ -1,0 +1,65 @@
+#aba{
+display: inline-block; 
+margin-left: 4px;
+/* width: 10px;
+height: 9px; */
+/* margin-left: 40px;
+margin-top: 10px; */
+}
+
+#board{
+align-items: center;
+margin-top: 10%;
+margin-left: 26%;
+width: 50%; 
+border-radius: 2px;
+border-style: groove;
+border-color: rgb(14, 14, 14);
+display: inline-block; 
+background-color: rgb(67, 60, 60);
+}
+#destinat{
+/*border-style: groove;*/
+/*border-radius: 2px;*/
+width: 200px;
+height: 50px;
+margin-left: 45%;
+align-items: center;
+color: white;
+}
+
+p{
+background: 100%;
+text-align:center;
+font-size: x-large;
+}
+
+#traveldestination{
+    margin-left:50%;
+    align-items: center;
+    width: 15px;
+    height: 60px;
+    background-color: red;
+}
+
+#traveldestination{
+    height: 45px;
+    width: 100px;
+    margin-top: 1px;
+    margin-left: 49%;
+    background-color: rgb(117, 24, 106);
+    color: yellow;  
+    border-width: 3px;
+    border-radius: 50;
+}
+#start{
+    border-radius: 50;
+    height: 45px;
+    width: 100px;
+    margin-top: 1px;
+    margin-left: 49%;
+    background-color: rgb(117, 24, 106);
+color: yellow;  
+  border-width: 3px;
+    
+}

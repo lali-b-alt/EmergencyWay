@@ -1,0 +1,20 @@
+h1{
+    margin-top: 10pxס;
+    color: rgb(64, 155, 224);
+            font-size: 50px; /* גודל גופן */
+            display: inline-block;
+            /*transform: rotate(-10deg); /* זווית העיקול */
+            text-align: center;
+            margin-left: 45%;
+    color: red; /* צבע האותיות */
+    text-shadow: 
+        -2px -2px 0 #fff,  
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff; /* מסגרת לבנה רחבה יותר סביב האותיות */
+    text-align: center; /* מרכז את הטקסט */
+    display: block; /* מאפשר טקסט מרכזי */
+    margin: 0 auto; /* מרכז את הבלוק */
+    
+}
+        

@@ -1,0 +1,11 @@
+<div id="board">
+  <app-keyboard id="aba"
+    *ngFor="let letter of list"
+    [key]="letter"
+    (clickedEvent)="updateDestination($event)">
+  </app-keyboard>
+  <app-keyboard id="space" [key]="space" (clickedEvent)="updateDestination($event)"> </app-keyboard>
+</div>
+<p id="destinat">{{destination}}</p>
+<button id="traveldestination" (click)="senddes()">שלח יעד</button>
+<button id="start" (click)="startTraveled()" *ngIf="destinationApproved">התחל בנסיעה</button>
